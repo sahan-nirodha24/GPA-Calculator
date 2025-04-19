@@ -199,37 +199,38 @@ tr:hover {
   }
 }
 
-
-@media (max-width: 480px) {
-  body {
-    padding: 10px;
+  @media (max-width: 768px) {
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .container {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+    }
+  
+    input, select {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    table, th, td {
+      font-size: 14px;
+    }
+  
+    .result p {
+      font-size: 20px;
+    }
   }
-
-  .container {
-    padding: 10px;
-    border-radius: 8px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  input, select {
-    padding: 8px;
-    font-size: 14px;
-  }
-
-  .btn {
-    font-size: 14px;
-    padding: 8px 12px;
-  }
-
-  th, td {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .result p {
-    font-size: 20px;
-  }
-}
+  
