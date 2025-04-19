@@ -200,35 +200,36 @@ tr:hover {
 }
 
 
-@media screen and (max-width: 768px) {
-  .form-row {
-    flex-direction: column;
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
   }
 
   .container {
-    padding: 15px;
-  }
-
-  .buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  input, select {
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  .btn {
-    width: 100%;
-    font-size: 14px;
-  }
-
-  table, th, td {
-    font-size: 14px;
+    padding: 10px;
+    border-radius: 8px;
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 20px;
+  }
+
+  input, select {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  th, td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .result p {
+    font-size: 20px;
   }
 }
