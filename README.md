@@ -1,7 +1,7 @@
 
 # GPA Calculator
 
-**A responsive web application for calculating Grade Point Average (GPA) built with Next.js, TypeScript, and Tailwind CSS.**
+#### A responsive web application for calculating Grade Point Average (GPA) built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
 
@@ -28,15 +28,11 @@
 
 ## Technologies Used
 
-- **Frontend**: 
+### Frontend
   - Next.js 14 (App Router)
   - React 18
   - TypeScript
   - Tailwind CSS
-- **Build Tools**:
-  - Vite (via Next.js)
-  - ESLint
-  - Prettier
 
 ## Installation
 
