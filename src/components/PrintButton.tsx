@@ -1,10 +1,6 @@
 "use client";
 
-interface Course {
-  code: string;
-  name: string;
-  grade: string;
-}
+import { Course } from '@/utils/calculateGPA';
 
 interface PrintButtonProps {
   courses: Course[];
